@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back2"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/buttonArpa"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="111dp"
+        android:background="@drawable/arpa"
+        android:onClick="arpa" />
+
+    <Button
+        android:id="@+id/buttonPirinc"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="330dp"
+        android:background="@drawable/pirinc"
+        android:onClick="pirinc" />
+
+    <Button
+        android:id="@+id/buttonMisir"
+        android:layout_width="195dp"
+        android:layout_height="215dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="205dp"
+        android:layout_marginLeft="210dp"
+        android:layout_marginTop="330dp"
+        android:layout_marginEnd="0dp"
+        android:background="@drawable/misir"
+        android:onClick="misir" />
+
+    <Button
+        android:id="@+id/buttonBugday"
+        android:layout_width="195dp"
+        android:layout_height="215dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="205dp"
+        android:layout_marginLeft="207dp"
+        android:layout_marginTop="111dp"
+        android:layout_marginEnd="0dp"
+        android:background="@drawable/bugday"
+        android:onClick="bugday" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:onClick="hakkinda"
+        android:text="HAKKINDA"
+        android:textSize="24sp"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="17dp"
+        android:text="EKİLECEK ÜRÜNÜ SEÇİNİZ"
+        android:textSize="24sp"
+        android:textStyle="italic" />
+
+</RelativeLayout>
